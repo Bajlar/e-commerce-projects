@@ -1,0 +1,17 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin: 120px 82px 0 104px;
+}
+
+.order-summary {
+  margin-top: 28px;
+  font-size: 25px;
+  color: #1C2B35;
+}
